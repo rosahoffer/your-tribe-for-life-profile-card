@@ -1,0 +1,31 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "naam": {
+        "type": "Text",
+        "config": {
+          "label": "Naam",
+          "placeholder": ""
+        }
+      },
+      "rol": {
+        "type": "Text",
+        "config": {
+          "label": "Rol",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
