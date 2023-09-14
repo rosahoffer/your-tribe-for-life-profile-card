@@ -7,8 +7,8 @@
 
 <main>
     <body>
-        <section class="loading-ball">
-            <svg class="logo-animation" width="100" height="61" viewBox="0 0 102 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <section class="loading-state">
+            <svg class="logo-rosa-hoffer" width="100" height="61" viewBox="0 0 102 63" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_85_92)">
                 <path d="M9.50673 10.5065C9.50673 2.70766 13.565 0 19.8751 0C21.5874 0 22.1739 1.23779 22.1739 2.47558C22.1739 3.71337 21.5874 4.90695 19.8751 4.90695C15.9073 4.90695 14.4628 7.52252 14.4628 10.7349V17.4322C14.4628 18.9463 13.4709 19.7273 11.983 19.7273C10.4951 19.7273 9.50311 18.9942 9.50311 17.4322V10.5065H9.50673Z" fill="white"/>
                 <path d="M32.3324 20.3636C25.7567 20.3636 21.5404 16.1534 21.5404 10.1818C21.5404 4.21022 25.7567 0 32.2887 0C38.8207 0 43.0807 4.21022 43.0807 10.1818C43.0807 16.1534 38.8171 20.3636 32.3324 20.3636ZM32.2887 4.25853C28.979 4.25853 26.7106 6.71108 26.7106 10.1818C26.7106 13.6526 28.979 16.1051 32.2887 16.1051C35.5984 16.1051 37.9105 13.6971 37.9105 10.1818C37.9105 6.66649 35.6421 4.25853 32.2887 4.25853Z" fill="white"/>
@@ -26,12 +26,48 @@
                 </clipPath>
                 </defs>
             </svg>
+            <svg class="scroll-text" width="10" height="59" viewBox="0 0 10 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.17003 57.01C8.96003 57.48 8.67003 57.85 8.30003 58.12C7.93003 58.39 7.48003 58.52 6.98003 58.52V56.99C7.36003 56.96 7.67003 56.81 7.91003 56.54C8.15003 56.28 8.27003 55.9 8.27003 55.43C8.27003 54.96 8.15003 54.55 7.91003 54.27C7.67003 53.99 7.36003 53.85 6.99003 53.85C6.70003 53.85 6.46003 53.94 6.27003 54.11C6.08003 54.28 5.94003 54.5 5.84003 54.75C5.74003 55.01 5.63003 55.36 5.51003 55.81C5.36003 56.38 5.21003 56.84 5.05003 57.2C4.89003 57.56 4.65003 57.86 4.33003 58.11C4.00003 58.36 3.57003 58.49 3.02003 58.49C2.52003 58.49 2.08003 58.36 1.70003 58.11C1.32003 57.86 1.03003 57.51 0.830029 57.05C0.630029 56.6 0.530029 56.07 0.530029 55.48C0.530029 54.63 0.740029 53.94 1.17003 53.4C1.59003 52.86 2.17003 52.56 2.91003 52.5V54.08C2.59003 54.1 2.32003 54.26 2.09003 54.53C1.86003 54.81 1.75003 55.17 1.75003 55.62C1.75003 56.03 1.86003 56.37 2.06003 56.63C2.27003 56.89 2.57003 57.02 2.97003 57.02C3.24003 57.02 3.46003 56.94 3.63003 56.78C3.80003 56.62 3.94003 56.41 4.04003 56.16C4.14003 55.91 4.25003 55.57 4.37003 55.13C4.53003 54.55 4.69003 54.08 4.85003 53.71C5.01003 53.35 5.25003 53.04 5.59003 52.78C5.93003 52.52 6.36003 52.4 6.92003 52.4C7.37003 52.4 7.78003 52.52 8.18003 52.76C8.57003 53 8.89003 53.35 9.13003 53.8C9.37003 54.26 9.49003 54.8 9.49003 55.42C9.49003 56.01 9.39003 56.54 9.18003 57.01H9.17003Z" fill="white"/>
+                <path d="M2.70004 47.95C2.02004 47.55 1.49004 47.01 1.11004 46.33C0.730039 45.65 0.540039 44.9 0.540039 44.08C0.540039 43.15 0.770039 42.32 1.23004 41.6C1.69004 40.88 2.33004 40.35 3.17004 40.02V41.74C2.71004 41.97 2.37004 42.28 2.14004 42.68C1.91004 43.08 1.80004 43.55 1.80004 44.08C1.80004 44.66 1.93004 45.17 2.19004 45.63C2.45004 46.08 2.82004 46.44 3.31004 46.69C3.80004 46.94 4.36004 47.07 5.01004 47.07C5.66004 47.07 6.22004 46.94 6.71004 46.69C7.20004 46.43 7.57004 46.08 7.84004 45.63C8.10004 45.18 8.24004 44.66 8.24004 44.08C8.24004 43.55 8.13004 43.09 7.90004 42.68C7.67004 42.28 7.33004 41.96 6.87004 41.74V40.02C7.71004 40.35 8.35004 40.87 8.81004 41.6C9.26004 42.33 9.49004 43.15 9.49004 44.08C9.49004 44.9 9.30004 45.65 8.92004 46.33C8.54004 47.01 8.01004 47.55 7.33004 47.95C6.65004 48.35 5.88004 48.55 5.03004 48.55C4.18004 48.55 3.41004 48.35 2.73004 47.95H2.70004Z" fill="white"/>
+                <path d="M9.39015 31.16L5.89015 33.17V34.26H9.39015V35.69H0.650146V32.67C0.650146 32 0.770147 31.43 1.00015 30.97C1.23015 30.51 1.55015 30.16 1.94015 29.93C2.33015 29.7 2.77015 29.58 3.26015 29.58C3.83015 29.58 4.35015 29.75 4.81015 30.08C5.28015 30.41 5.59015 30.92 5.76015 31.61L9.38015 29.45V31.16H9.39015ZM4.75015 34.27V32.68C4.75015 32.14 4.62015 31.74 4.35015 31.47C4.08015 31.2 3.72015 31.06 3.27015 31.06C2.82015 31.06 2.46015 31.19 2.21015 31.46C1.96015 31.73 1.83015 32.14 1.83015 32.68V34.27H4.76015H4.75015Z" fill="white"/>
+                <path d="M8.91004 23.37C8.53004 24.05 8.00004 24.59 7.31004 24.99C6.63004 25.39 5.86004 25.59 5.00004 25.59C4.14004 25.59 3.38004 25.39 2.70004 24.99C2.02004 24.59 1.49004 24.05 1.11004 23.37C0.730039 22.69 0.540039 21.94 0.540039 21.12C0.540039 20.3 0.730039 19.55 1.11004 18.86C1.49004 18.18 2.02004 17.64 2.70004 17.24C3.38004 16.85 4.15004 16.65 5.00004 16.65C5.85004 16.65 6.63004 16.85 7.31004 17.24C7.99004 17.64 8.53004 18.17 8.91004 18.86C9.29004 19.54 9.48004 20.3 9.48004 21.12C9.48004 21.94 9.29004 22.68 8.91004 23.37ZM7.84004 19.58C7.58004 19.13 7.20004 18.77 6.71004 18.52C6.22004 18.27 5.65004 18.14 5.00004 18.14C4.35004 18.14 3.79004 18.27 3.30004 18.52C2.81004 18.78 2.44004 19.13 2.18004 19.58C1.92004 20.03 1.79004 20.55 1.79004 21.13C1.79004 21.71 1.92004 22.22 2.18004 22.68C2.44004 23.13 2.81004 23.49 3.30004 23.74C3.79004 23.99 4.35004 24.12 5.00004 24.12C5.65004 24.12 6.21004 23.99 6.71004 23.74C7.20004 23.48 7.58004 23.13 7.84004 22.68C8.10004 22.23 8.24004 21.71 8.24004 21.13C8.24004 20.55 8.11004 20.04 7.84004 19.58Z" fill="white"/>
+                <path d="M8.24015 11.18V8.22H9.40015V12.61H0.650146V11.18H8.23015H8.24015Z" fill="white"/>
+                <path d="M8.24015 2.96V0H9.40015V4.39H0.650146V2.96H8.23015H8.24015Z" fill="white"/>
+                </svg>                
+            <svg class="scroll-down-icon" width="10" height="43" viewBox="0 0 10 43" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.02992 33.02H6.06992V1.18C6.06992 0.58 5.57992 0.0899963 4.97992 0.0899963C4.37992 0.0899963 3.88992 0.58 3.88992 1.18V33.02H0.949916C0.249916 33.02 -0.210084 33.76 0.0999157 34.39L4.13992 42.48C4.48992 43.18 5.47992 43.18 5.82992 42.48L9.86992 34.39C10.1799 33.76 9.72992 33.02 9.01992 33.02H9.02992Z" fill="white"/>
+            </svg>
         </section>
+        <section class="intro-contain">
+            <div class="intro-text">
+                <h1>hello there.</h1>
+                <p>{data.bio}</p>
+            </div>
+
+
+        </section>
+        <section class="contact-contain">
+            <h2>let's work together!</h2>
+            <p>...</p>
+            <ul class="social-icons">
+                <li>
+                    <a href="{data.linkedin}"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="{data.instagram}"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <p>© rosahoffer 2023</p>
+        </footer>
     </body>
 </main>
     
 
 <style>
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
     /* --GLOBAL-- */
 
@@ -48,15 +84,13 @@
     body{
         margin: 0;
         padding: 0;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: var(--primary-font-color);
         background-color: var(--tertiary);
     }
 
-    .loading-ball {
+    .loading-state {
         background: white;
-        width: 4rem;
-        height: 4rem;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -67,22 +101,126 @@
         animation: init 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, zoom 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
     }
 
-    .loading-ball svg {
+    .logo-rosa-hoffer {
         position: absolute;
+        width: 20%;
+        height: 20%;
         left: 50%;
         top: 50%;
         overflow: hidden;
         transform: translate(-50%, -50%);
     }
 
-    .logo-animation path {
-        stroke: #fff;
-        stroke-width: 1px;
-        stroke-dasharray: 900;
-        stroke-dashoffset: 900;
-        fill: transparent;
-        animation: dash 1.5s ease-in-out 3.5s forwards;
-     }
+    .scroll-text{
+        position: absolute;
+        left: 50%;
+        bottom: 21%;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
+        animation-delay: 3.5s;
+    }
+
+    .scroll-down-icon {
+        position: absolute;
+        left: 50%;
+        bottom: 15%;
+        opacity: 0;
+        animation: jump 0.5s linear alternate infinite;
+        animation-delay: 4s;
+    }
+
+    .intro-contain{
+        margin-top: 50rem;
+        padding: 3rem;
+    }
+
+    .intro-text h1{
+        font-size: 7rem;
+        line-height: 8rem;
+        color: white;
+        font-weight: 900;
+    }
+
+    .intro-text p{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .contact-contain{
+        background-color: var(--primary);
+        padding: 3rem;
+    }
+
+    .contact-contain h2{
+        font-size: 4rem;
+        line-height: 5rem;
+        color: white;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .contact-contain p{
+        font-size: 3rem;
+        letter-spacing: 20px;
+        color: white;
+        font-weight: 900;
+        text-align: center;
+        margin-top: -2rem;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-right: 3rem;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        position: relative;
+        font-size: 1.2rem;
+    }
+    
+    .social-icons i {
+        color: var(--primary);
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        transition: all 0.3s ease-out;
+    }
+
+    .social-icons a:before {
+        transform: scale(1);
+        content: " ";
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        display: block;
+        background: var(--secondary);
+        transition: all 0.3s ease-out;
+    }
+
+    .social-icons a:hover:before {
+        transform: scale(0);
+    }
+    
+    .social-icons a:hover i {
+        transform: scale(2);
+        background: var(--secondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in;
+    }
+
+    footer p{
+        text-align: center;
+        color: white;
+    }
+
+    /* KEYFRAMES */
+
 
     @keyframes init {
         0% {
@@ -92,7 +230,6 @@
         100% {
             width: 4rem;
             height: 4rem;
-            margin-top: 0px;
             opacity: 1;
         }
     }
@@ -122,24 +259,91 @@
     }
 
     @keyframes zoom {
-        0% {
-        }
         100% {
             width: 95%;
             height: 97%;
             border-radius: 5px;
-            background-color: var(--primary)
+            background-color: var(--primary);
         }
     }
 
-    @keyframes dash {
+    @keyframes fadeIn {
         0% {
-            fill: transparent;
+            opacity: 0; 
         }
         100% {
-            fill: white;
+            opacity: 1; 
         }
     }
 
+    @keyframes jump {
+        0% {
+            opacity: 1; 
+            transform: translate3d(0, 100%, 0) scale3d(1.5, 0.7, 1);
+        }
+    }
+
+    /* BREAKPOINTS */
+
+    @media (min-width:50rem){
+
+    .intro-contain{
+        margin-top: 50rem;
+        padding: 6rem;
+    }
+
+    .intro-text h1{
+        font-size: 9rem;
+    }
+
+    .intro-text p{
+        max-width: 30rem;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .contact-contain{
+        padding: 6rem;
+    }
+
+    .contact-contain h2{
+        font-size: 5rem;
+    }
+    }
+
+    @media (min-width:80rem){
+
+    .intro-contain{
+        margin-top: 50rem;
+        padding: 10rem;
+    }
+    
+    .intro-text{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intro-text h1{
+        font-size: 11rem;
+        line-height: 13rem;
+        max-width: 10rem;
+    }
+
+    .intro-text p{
+        margin-top: 24rem;
+        max-width: 35rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .contact-contain{
+        padding: 5rem 10rem 5rem 10rem;
+    }
+
+    footer{
+        padding: 1rem;
+    }
+    }
 
 </style>

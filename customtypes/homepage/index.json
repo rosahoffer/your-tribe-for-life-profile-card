@@ -12,18 +12,38 @@
         },
         "type": "UID"
       },
-      "naam": {
+      "bio": {
         "type": "Text",
         "config": {
-          "label": "Naam",
+          "label": "bio",
           "placeholder": ""
         }
       },
-      "rol": {
-        "type": "Text",
+      "linkedin": {
+        "type": "Link",
         "config": {
-          "label": "Rol",
-          "placeholder": ""
+          "label": "linkedin",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "image",
+          "constraint": {
+            "width": 1000,
+            "height": 1000
+          },
+          "thumbnails": []
+        }
+      },
+      "instagram": {
+        "type": "Link",
+        "config": {
+          "label": "instagram",
+          "placeholder": "",
+          "select": null
         }
       }
     }

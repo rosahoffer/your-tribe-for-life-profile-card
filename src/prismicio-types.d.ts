@@ -9,26 +9,48 @@ type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
  */
 interface HomepageDocumentData {
   /**
-   * Naam field in *Homepage*
+   * bio field in *Homepage*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: homepage.naam
+   * - **API ID Path**: homepage.bio
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  naam: prismic.KeyTextField;
+  bio: prismic.KeyTextField;
 
   /**
-   * Rol field in *Homepage*
+   * linkedin field in *Homepage*
    *
-   * - **Field Type**: Text
+   * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: homepage.rol
+   * - **API ID Path**: homepage.linkedin
    * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#key-text
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  rol: prismic.KeyTextField;
+  linkedin: prismic.LinkField;
+
+  /**
+   * image field in *Homepage*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * instagram field in *Homepage*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.instagram
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  instagram: prismic.LinkField;
 }
 
 /**
