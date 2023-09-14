@@ -13,7 +13,7 @@ Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde d
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
     
-## 🛠️ Beschrijving
+## 📄 Beschrijving
 
 ## 🛠️ Gebruik
 
