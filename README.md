@@ -1,9 +1,9 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Profile Card
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Inhoudsopgave
+Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde data op dit visitekaartje is afkomstig vanuit een headless CMS genaamd `prismic.io`.
+
+## 📖 Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -12,20 +12,41 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## 💎 Kenmerken
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Dit project is gemaakt met SvelteKit en Prismic.io. Verder staat hieronder nog een korte lijst met gebruikte tools en middelen.
 
-## Installatie
+**Tools**
 
-## Gebruik
+- 🖥️ VSCode
+- 🎨 Figma
 
-## Bronnen
+**Methodes en Technieken**
 
-## Licentie
+- 🚀 SvelteKit
+- 🗳️ Prismic.io
+- 💅🏼 CSS
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+## 📥 Installatie
+
+1. Clone of download deze repository
+2. Ga naar de root directory van het project.
+3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
+4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `5173`.
+
+## 🛠️ Gebruik
+
+De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is bedoeld voor het testen, experimenten en eventueel verbeteren van de applicatie in een ontwikkel omgeving. Het is ook mogelijk om de applicatie online te bezoeken en te gebruiken, dit kan via de link onder kopje About.
+
+
+## 🗂️ Bronnen
+
+[SvelteKit](https://kit.svelte.dev/)
+<br>
+[Prismic](https://prismic.io/)
+<br>
+## 🔓 Licentie
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
