@@ -51,6 +51,17 @@ interface HomepageDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   instagram: prismic.LinkField;
+
+  /**
+   * github field in *Homepage*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.github
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  github: prismic.LinkField;
 }
 
 /**

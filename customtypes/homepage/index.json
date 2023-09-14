@@ -45,6 +45,14 @@
           "placeholder": "",
           "select": null
         }
+      },
+      "github": {
+        "type": "Link",
+        "config": {
+          "label": "github",
+          "placeholder": "",
+          "select": null
+        }
       }
     }
   }
