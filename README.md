@@ -5,7 +5,6 @@ Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde d
 
 ## 📖 Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
   * [Gebruik](#gebruik)
