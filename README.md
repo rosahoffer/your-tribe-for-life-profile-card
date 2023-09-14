@@ -1,5 +1,6 @@
 # Profile Card
 
+![mockup-profile-card](https://github.com/rosahoffer/your-tribe-for-life-profile-card/assets/112861375/1b251594-dd82-4dea-803a-3ddda098aa2a)
 
 Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde data op dit visitekaartje is afkomstig vanuit een headless CMS genaamd `prismic.io`.
 
