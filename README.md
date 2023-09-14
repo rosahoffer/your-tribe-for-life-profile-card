@@ -6,12 +6,18 @@ Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde d
 
 ## 📖 Inhoudsopgave
 
- * [Beschrijving](#beschrijving)
+  * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
+    
+## 🛠️ Beschrijving
+
+## 🛠️ Gebruik
+
+De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is bedoeld voor het testen, experimenten en eventueel verbeteren van de applicatie in een ontwikkel omgeving. Het is ook mogelijk om de applicatie online te bezoeken en te gebruiken, dit kan via de link onder kopje About.
 
 ## 💎 Kenmerken
 
@@ -34,11 +40,6 @@ Dit project is gemaakt met SvelteKit en Prismic.io. Verder staat hieronder nog e
 2. Ga naar de root directory van het project.
 3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
 4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `5173`.
-
-## 🛠️ Gebruik
-
-De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is bedoeld voor het testen, experimenten en eventueel verbeteren van de applicatie in een ontwikkel omgeving. Het is ook mogelijk om de applicatie online te bezoeken en te gebruiken, dit kan via de link onder kopje About.
-
 
 ## 🗂️ Bronnen
 
