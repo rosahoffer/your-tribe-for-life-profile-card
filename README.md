@@ -15,6 +15,8 @@ Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde d
     
 ## 📄 Beschrijving
 
+Dit digitale visitekaartje is gemaakt met Svelte en Prismic en bevat een paars en roze kleurenschema, een animatie van het logo bij het openen en een sectie met informatie over mij, evenals links naar mijn sociale media-profielen.
+
 ## 🛠️ Gebruik
 
 De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is bedoeld voor het testen, experimenten en eventueel verbeteren van de applicatie in een ontwikkel omgeving. Het is ook mogelijk om de applicatie online te bezoeken en te gebruiken, dit kan via de link onder kopje About.
